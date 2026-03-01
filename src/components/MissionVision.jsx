@@ -1,6 +1,6 @@
 import React from "react";
 import missionImg from "../assets/Mission.jpg";
-import visionImg from "../assets/Vision.jpg";
+import visionImg from "../assets/vision.jpg";
 
 const MissionVision = () => {
   return (
