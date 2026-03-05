@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "./ui/Button";
 import { Input, TextArea } from "./ui/Input";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
 const Contact = () => {
   const [formData, setFormData] = React.useState({
@@ -119,13 +119,18 @@ const Contact = () => {
 
               <div className="flex items-center space-x-4">
                 <Phone className="text-accent" />
-                <p className="text-blue-100">+234 802 916 2696 </p>
+                <p className="text-blue-100">+234 802 916 2696, +234 803 352 5546</p>
               </div>
 
-              <div className="flex items-center space-x-4">
+              <a href="https://wa.me/2348029162696" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-4 hover:opacity-80 transition-opacity cursor-pointer">
+                <MessageCircle className="text-accent" />
+                <p className="text-blue-100">+234 802 916 2696 </p>
+              </a>
+
+              <a href="mailto:info@fovecglobal.com" className="flex items-center space-x-4 hover:opacity-80 transition-opacity cursor-pointer">
                 <Mail className="text-accent" />
                 <p className="text-blue-100">info@fovecglobal.com</p>
-              </div>
+              </a>
             </div>
 
             {/* Map Placeholder */}

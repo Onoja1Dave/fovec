@@ -1,25 +1,28 @@
 import React from 'react';
 import { Card } from './ui/Card';
 import { Star } from 'lucide-react';
+import testimony1 from '../assets/testimony1.jpg';
+import testimony2 from '../assets/testimony2.jpg';
+import testimony3 from '../assets/testimony3.jpg';
 
 const testimonials = [
   {
-    name: "Dr. Chioma A.",
+    name: "Dr. Chibuzor A.",
     role: "University Lecturer",
     text: "FOVEC's guidance for my PhD application was invaluable. Their attention to detail in the documentation process set them apart.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+    image: testimony1
   },
   {
-    name: "Mr. James O.",
+    name: "Mr. Abubakar .",
     role: "Graduate Student (UK)",
     text: "Professional, honest, and timely. They didn't just process my application; they advised me on the best career path.",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+    image: testimony2
   },
   {
-    name: "Sarah K.",
+    name: "Sarah james.",
     role: "Parent",
     text: "As a parent sending my child abroad for the first time, FOVEC gave me peace of mind with their transparency and support.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+    image: testimony3
   }
 ];
 
